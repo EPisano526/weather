@@ -1,0 +1,50 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+input[type="text"] {
+    font-size: 1.5em;
+    padding: 10px;
+    border: solid 5px greenyellow;
+    transition: border 1s;
+    border-radius: 4px;
+}
+
+input[type="text"]:hover, input[type="text"].focus {
+    border: solid 5px green;
+}
+
+button {
+    margin-top: 20px;
+    color: #28aadc;
+    background-color: #fff;
+    border: 2px solid #28aadc;
+    border-radius: 4px;
+    padding: 12px 18px;
+}
+
+button:hover {
+    background: #28aadc;
+    color: #fff;
+}
+
+#weather {
+    margin: 50px auto;
+    padding: 20px;
+    background: #262626;
+    border: 5px solid greenyellow;
+    display: none;
+    border-radius: 4px;
+}
